@@ -37,3 +37,5 @@ In essence, these functions provide the ability to create realistic benefit matr
 This folder contains the code necessary to generate the figures used for the experiments in the paper.
 
 It also provides lightweight examples of the usage of many of the functions in the repository.
+
+Run an experiment using the `run_experiment.py` script to ensure that package imports work correctly.
