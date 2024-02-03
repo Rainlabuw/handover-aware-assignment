@@ -8,11 +8,12 @@ from algorithms.solve_w_haal import solve_w_haal
 from algorithms.solve_optimally import solve_optimally
 from algorithms.solve_wout_handover import solve_wout_handover
 
+"""
+Compare various solutions types against the true optimal,
+figure 2 in the paper.
+"""
+
 def optimal_comparison_exp():
-    """
-    Compare various solutions types against the true optimal,
-    plot for final paper
-    """
     n = 5
     m = 5
     T = 3

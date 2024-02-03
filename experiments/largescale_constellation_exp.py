@@ -8,6 +8,10 @@ from algorithms.solve_greedily import solve_greedily
 
 from constellation_sim.ConstellationSim import get_constellation_bens_and_graphs_coverage
 
+"""
+Python code to replicate the results of Figure 5, the large-scale constellation experiment in the paper.
+"""
+
 def largescale_constellation_exp():
     num_planes = 40
     num_sats_per_plane = 25

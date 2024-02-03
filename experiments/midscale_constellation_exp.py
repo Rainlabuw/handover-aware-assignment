@@ -9,6 +9,11 @@ from algorithms.solve_greedily import solve_greedily
 
 from constellation_sim.ConstellationSim import get_constellation_bens_and_graphs_random_tasks
 
+"""
+Python code to replicate the results of Figure 4a, the mid-scale constellation
+performance experiment in the paper.
+"""
+
 def midscale_constellation_exp():
     num_planes = 18
     num_sats_per_plane = 18
